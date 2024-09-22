@@ -1,0 +1,15 @@
+.circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        border: 8px solid blue;
+    }
+    100% {
+        border: 8px solid darkblue;
+    }
+} 

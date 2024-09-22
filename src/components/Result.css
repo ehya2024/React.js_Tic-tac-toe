@@ -1,0 +1,22 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.result p {
+    color: #b1b1b1;
+    font-family: vazir;
+}
+
+.reset {
+    width: fit-content;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: olivedrab;
+    color: gainsboro;
+    cursor: pointer;
+    font-family: vazir;
+    margin: 0 auto;
+}
