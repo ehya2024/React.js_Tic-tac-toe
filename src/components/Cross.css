@@ -28,7 +28,9 @@
 
 @keyframes blinkAnimation  {
     0% {
+        background-color: red;
     }
     100% {
+        background-color: darkred;
     }
 } 
